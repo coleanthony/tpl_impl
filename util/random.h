@@ -7,8 +7,6 @@
 
 #include <cstdint>
 
-namespace leveldb {
-
 // A very simple random number generator.  Not especially good at
 // generating truly random bits, but good enough for our needs in this
 // package.
@@ -58,6 +56,5 @@ class Random {
   uint32_t Skewed(int max_log) { return Uniform(1 << Uniform(max_log + 1)); }
 };
 
-}  // namespace leveldb
 
 #endif  // STORAGE_LEVELDB_UTIL_RANDOM_H_
