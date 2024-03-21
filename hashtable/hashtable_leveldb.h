@@ -17,6 +17,7 @@
 #include <string.h>
 #include <cassert>
 
+//根据实际需要修改testtype中的值
 struct testtype{
     std::string keyx;
     uint32_t hash;
@@ -65,7 +66,6 @@ class HandleTable {
     }
     return result;
   }
-
 
     //for test
   uint32_t GetLength(){
