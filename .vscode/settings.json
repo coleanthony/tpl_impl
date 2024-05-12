@@ -59,6 +59,11 @@
         "chrono": "cpp",
         "unordered_set": "cpp",
         "ratio": "cpp",
-        "thread": "cpp"
+        "thread": "cpp",
+        "condition_variable": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "future": "cpp",
+        "mutex": "cpp"
     }
 }
